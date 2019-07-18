@@ -1,0 +1,16 @@
+body {
+    background: #111 url("http://i.imgur.com/i3OA2PJ.jpg") repeat 0 0;
+}
+
+.title {
+    margin-bottom: 0.5em;
+    display: block;
+    background: orange;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    padding: 1em;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    text-align: right;
+    cursor: pointer;
+}

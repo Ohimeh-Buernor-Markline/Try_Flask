@@ -1,0 +1,195 @@
+header, section, footer, aside, nav, article, figure, figcaption {
+ display: block;}
+ 
+ @keyframes body {
+    50%{
+        background-color: gray;
+    }
+ }
+ body {
+    animation: body 3s infinite; 
+     background-color: #f9f8f6;
+     font-family: comic;
+     line-height: 1.4em;
+     margin: 0px;
+}
+
+ .wrapper {
+     max-width: 50%;
+     margin: 20px auto 20px auto;
+     border: 2px solid color: black;
+     width: 50%;
+     background-color: #D9D9D6;
+}
+
+header {
+	 height: 160px;
+     text-align: left;
+     margin-bottom: 50px;
+ }
+
+@keyframes h1 {
+    50%{
+    color: black;
+    
+   }
+}
+
+h1 {
+    animation: h1 3s infinite;
+    font-size: 5.5em; 
+    /*font-weight: bold;*/
+    text-align: center;
+    margin-bottom: 20px;
+    width: 920px;
+    height: 80px;
+    color: #AB2328;
+    margin-left: 160px;
+}
+
+/*nav {
+	max-width: 100%;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 70px;
+	margin-right: 70px;
+	height: 65px;
+}*/
+
+nav ul {
+	margin: 1.9em;
+	display: inline-block;
+	margin-right: 100px;
+	margin-left: 50px;
+	text-transform: uppercase;
+	/*padding: 5px 0px 5px 30px;
+	color: #de6581*/;
+}
+
+nav li  {
+	text-decoration: none;
+	display: inline-block;
+	margin-right: 10px;
+	margin-left: 3px;
+	font-size: 1.8em;
+}
+
+nav li a:hover {
+	color:#AB2328;
+}
+
+ 
+ section {
+    float: left;
+    width: 60%;
+    /*border-right: 1px solid black;*/
+    margin-bottom: 40px;
+    line-height: 1.5em;
+}
+
+@keyframes h2 {
+    50%{
+        color: black;
+    }
+}
+ section article h2 {
+    animation: h2 3s infinite;
+ 	margin-top: 1.2em;
+ 	margin-bottom: 1.2em;
+ 	font-size: 3.5em;
+ 	color: #AB2328;
+ 	margin-left: 40px;
+ 	text-align: center;
+
+ }
+    
+ 
+ section article p {
+    float: none;
+    padding: 5px;
+    margin-left:20px;
+    border: 1px solid black;
+    text-align: center;
+    margin-right: 20px;
+    color: black;
+    font-size: 1.8em;
+}
+ 
+ aside {
+    width: 30%;
+    float: right;
+    padding: 80px 0px 80px 0px;
+    text-align: center;
+    border: 1px solid black;
+    line-height: 2.5em;
+    margin-top: 100px;
+    margin-right: 20px;
+}
+ 
+ @keyframes h2 {
+    50%{
+        color: black;
+    }
+ }
+aside h2 {
+    animation: h2 3s infinite;
+	color: #AB2328;
+	font-size: 3.5em;
+}
+ 
+ aside section a:hover {
+   color: #AB2328;
+}
+ 
+ aside ul {
+    /*text-decoration: none;*/
+    padding: 30px 0px 10px 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: solid black;
+    font-size: 1.8em;
+ }
+
+ 
+ 
+ footer {
+    font-size: 100%;
+    padding: 7px 0px 0px 20px;
+    clear: both;
+}
+
+
+@media screen and (max-width: 500px) {
+
+	nav {
+		text-align: center;
+		width: 100%;
+	}
+
+	nav li {
+		margin: 0;
+		display: block;
+		margin-top: 8px;
+		margin-bottom: 8px;
+		text-align: center;
+	}
+
+	section {
+		width: 100%;
+	}
+
+	aside {
+		width: 100%;
+		text-align: right;
+		margin-bottom: 20px;
+	}
+
+	footer {
+		text-align: right;
+	}
+	
+	}
+
+ 

@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<HTML>
+        
+    <div class="topnav">
+      <link rel="stylesheet" type="text/css" href="/home/markline/Flask/Status/css/nav.css">
+      <a class="active" href="/home/markline/Flask/templates/homepage.html">Home</a>
+      <a href="/home/markline/Flask/templates/about.html">About</a>
+    </div>    
+
+<HEAD><TITLE>LOG IN PAGE</TITLE>
+<link rel="stylesheet" type="text/css" href="/home/markline/Flask/Status/css/kkk.css">
+
+<label for="show" class="title">Log in<i class="flag left"></i><i class="flag right"></i></label>
+</HEAD>
+<BODY>
+
+
+
+<!-- Form -->
+<form action="homepage.html" method="post" class="form">
+    <!-- User name -->
+    <div class="group">
+        <div class="col-1">
+            <label for="l-name">User Name</label>
+        </div>
+        <div class="col-2">
+            <input type="text" id="U-name" placeholder="User Name" />
+        </div>
+    </div>
+
+    <!-- Password -->
+    <div class="group">
+        <div class="col-1">
+            <label for="password">your password</label>
+        </div>
+        <div class="col-2">
+            <input type="password" id="password" placeholder="password" />
+        </div>
+    </div>
+    <!-- Terms & Conditions -->
+    <div class="group-2">
+        <input type="checkbox" class="checkbox" id="terms" />
+        <label for="terms"><span class="toogle"></span>I declare to have read and accepted the <a href="#">terms of service</a></label>
+    </div>
+    <div class>
+    <!-- Submit button -->
+    <input type="submit" class="submit" value="Log in" />
+    </div>
+</form>
+
+<footer>
+ Copyright &copy; 2016 Pearl's Garage
+ </footer>
+</BODY>
+</HTML>
