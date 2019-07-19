@@ -4,7 +4,7 @@ html, body, h2 {
 }
 
 body {
-    background: #111 url("http://i.imgur.com/i3OA2PJ.jpg") repeat 0 0;
+    background: #111 url("/home/markline/Flask/Status/images/blue.jpeg") repeat 0 0;
 }
 
 .show {
@@ -20,7 +20,7 @@ body {
 .title {
     margin-bottom: 0.5em;
     display: block;
-    background: orange;
+    background: green;
     font-family: 'Nunito', sans-serif;
     font-size: 22px;
     padding: 1em;

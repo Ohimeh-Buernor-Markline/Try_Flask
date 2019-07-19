@@ -1,0 +1,92 @@
+/* Add your css styles here */
+* {
+    box-sizing: border-box;
+}
+[class*="col-"] {
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
+.col-1 { width: 8.33%;}
+.col-2 { width: 16.66%;}
+.col-3 { width: 25%;}
+.col-4 { width: 33.33%;}
+.col-5 { width: 41.66%;}
+.col-6 { width: 50%;}
+.col-7 { width: 58.33%;}
+.col-8 { width: 66.66%;}
+.col-9 { width: 75%;}
+.col-10 { width: 83.33%;}
+.col-11 { width: 91.66%;}
+.col-12 { width: 100%;}
+
+body {
+    font-family: sans-serif;
+}
+
+.menu {
+    font-weight: bold;
+}
+
+.menu-item {
+    width: 50px;
+    height: 10px;
+    padding: 10px 10px 0px 10px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+.menu-list{
+    display: inline;
+    list-style-type: none;
+}
+
+.content {
+    height: 700px;
+    border: 1px solid green;
+}
+
+.green-text{
+    color: green;
+}
+
+.image {
+    height: 600px;
+}
+
+.pic {
+    margin: 30px, 30px, 30px, 30px;
+    padding: 10px, 10px, 10px, 10px;
+}
+
+.description {
+    color: black;
+    height: 600px;
+    font-size: 10px;
+}
+
+.sublink {
+    height: 600px;
+}
+
+.footer-link {
+    background-color: #aaa;
+    margin: 0;
+    height:100px;
+}
+
+.sublink-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sublink-item {
+    text-decoration: none;
+}
+
+.small-img {
+    background-color: green;
+    border: solid black;
+}
+
